@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
 
 require 'json'
 require 'open-uri'
@@ -16,7 +17,7 @@ class Importer
   end
 
   def storage_path
-    "#{ENV['HOME']}/Dropbox/Journal.dayone"
+    "#{ENV['HOME']}/Dropbox/Apps/Day\ One/Journal.dayone"
   end
 
   def last_id_path
